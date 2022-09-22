@@ -1,0 +1,112 @@
+body{
+    background-color: rgb(172, 167, 167);
+}
+
+
+h1 {
+    margin-left: 540px;
+}
+
+form {
+    width: 350px;
+    margin: 30px auto;
+    padding: 10px;
+    margin-top: 30px;
+}
+
+form div {
+    margin-top: 15px;
+}
+
+label {
+    font-weight: bold;
+    font-size: 20px;
+}
+
+input, select, textarea {
+    background-color: white;
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border-radius: 10px;
+    border: 1px solid #dbdbdb;
+}
+
+button:hover{
+    background-color: orangered;
+}
+
+body {
+    margin: 0;
+}
+
+nav {
+    background-color: #ebeaea;
+    display: flex;
+    align-items: center;
+    height: 10vh;
+}
+
+nav ul {
+    display: flex;
+    list-style-type: none;
+    align-items: center;
+}
+
+nav ul li {
+    margin-right: 25px;
+}
+
+.nav-left {
+    flex: 50%; 
+}
+
+.nav-left ul li a {
+    text-decoration: none;
+    color: black;
+}
+
+.nav-right {
+    flex: 50%;
+    text-align: end;
+    margin-right: 25px;
+}
+
+.nav-right a {
+    background-color: black;
+    padding: 8px 20px;
+    color: white;
+    border-radius: 5px;
+}
+
+nav ul li :hover{
+    font-weight: bold;
+}
+
+section {
+    display: flex;
+    width: 80%;
+
+}
+
+.left{
+    margin-left: 100px;
+    margin-top: 90px;
+}
+
+.icon {
+    padding: 10px;
+    width: 30px;
+    align-items: flex-start;
+}
+
+.right{
+    float: right;
+    margin-left: 600px;
+    margin-top: -350px;
+}
+
+.btn-dark {
+    float: right;
+    margin-top:10px;
+}
